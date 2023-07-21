@@ -1,0 +1,60 @@
+body {
+font-family: 'Roboto', sans-serif;;
+}
+
+.navbar {
+    background-color: rgb(23, 146,140);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(151, 133, 170);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-blog .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffe;
+}
+
+.section title {
+    font-family: 'Kanit', sans-serif;
+}
+
+#sobre, #blog {
+    background-color: rgb(23, 146, 140);
+}
+
+.text-colored {
+    color: rgb(27, 22, 23);
+}
+
+.nav-blog .nav-link.active,
+#contato button {
+    background-color: rgb(31, 27, 28);
+    color: #fff;
+}
+
+.nav-blog .nav-link:hover {
+    color: rgb(240, 231, 233);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 240px;
+    }
+}
